@@ -1,0 +1,10 @@
+# InitUsb2Can.srv
+# Service to initialize/control USB2CAN motor controller
+
+# Request
+string action    # 'start' or 'stop'
+
+---
+
+# Response
+bool success     # True if operation succeeded

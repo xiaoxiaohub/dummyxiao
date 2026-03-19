@@ -1,0 +1,11 @@
+# WriteUsb2Can.srv
+# Service to write commands to USB2CAN motor controller
+
+# Request
+float64[] pos_commands    # Position commands for each motor (degrees)
+float64[] vel_commands    # Velocity commands for each motor (deg/s)
+
+---
+
+# Response
+bool success     # True if operation succeeded

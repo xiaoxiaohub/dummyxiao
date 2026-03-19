@@ -1,0 +1,12 @@
+# ReadUsb2Can.srv
+# Service to read current state from USB2CAN motor controller
+
+# Request
+# (empty - no request parameters needed)
+
+---
+
+# Response
+float64[] pos_commands    # Current position for each motor (degrees)
+float64[] vel_commands    # Current velocity for each motor (deg/s)
+bool success              # True if operation succeeded

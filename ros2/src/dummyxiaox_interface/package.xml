@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+  Copyright (c) 2025. Muzixiaowen(xin.li at switchpi.com) All rights reserved.
+  For more details, check out in https://gitee.com/switchpi/dummyx2
+-->
+<package format="3">
+  <name>dummyx_interface</name>
+  <version>0.1.0</version>
+  <description>ROS2 service and message interfaces for DummyX2 robot</description>
+  <maintainer email="xin.li@switchpi.com">Muzixiaowen</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <depend>std_msgs</depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
