@@ -4,7 +4,7 @@
   For more details, check out in https://gitee.com/switchpi/dummyx2
 -->
 <package format="3">
-  <name>dummyx_interface</name>
+  <name>dummyxiaox_interface</name>
   <version>0.1.0</version>
   <description>ROS2 service and message interfaces for DummyX2 robot</description>
   <maintainer email="xin.li@switchpi.com">Muzixiaowen</maintainer>

@@ -9,7 +9,7 @@
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
-  <depend>dummyx_interface</depend>
+  <depend>dummyxiaox_interface</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
