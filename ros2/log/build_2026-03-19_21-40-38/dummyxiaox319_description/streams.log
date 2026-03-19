@@ -1,0 +1,20 @@
+[0.289s] Invoking command in '/home/jiehuang/dummyxiao319/ros2/src/dummyxiaox319_description': PYTHONPATH=/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dummyxiaox319_description build --build-base /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/build install --record /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/install.log --single-version-externally-managed install_data
+[0.398s] running egg_info
+[0.398s] writing ../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/PKG-INFO
+[0.398s] writing dependency_links to ../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/dependency_links.txt
+[0.398s] writing entry points to ../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/entry_points.txt
+[0.399s] writing requirements to ../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/requires.txt
+[0.399s] writing top-level names to ../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/top_level.txt
+[0.399s] reading manifest file '../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/SOURCES.txt'
+[0.400s] writing manifest file '../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info/SOURCES.txt'
+[0.400s] running build
+[0.400s] running build_py
+[0.400s] running install
+[0.400s] running install_lib
+[0.400s] running install_data
+[0.401s] running install_egg_info
+[0.401s] removing '/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description/lib/python3.10/site-packages/dummyxiaox319_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.402s] Copying ../../build/dummyxiaox319_description/dummyxiaox319_description.egg-info to /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description/lib/python3.10/site-packages/dummyxiaox319_description-0.0.0-py3.10.egg-info
+[0.402s] running install_scripts
+[0.411s] writing list of installed files to '/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/install.log'
+[0.423s] Invoked command in '/home/jiehuang/dummyxiao319/ros2/src/dummyxiaox319_description' returned '0': PYTHONPATH=/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dummyxiaox319_description build --build-base /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/build install --record /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox319_description/install.log --single-version-externally-managed install_data

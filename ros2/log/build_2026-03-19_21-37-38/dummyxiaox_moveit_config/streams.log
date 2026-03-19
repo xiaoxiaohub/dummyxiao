@@ -1,0 +1,41 @@
+[0.004s] Invoking command in '/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config': CMAKE_PREFIX_PATH=/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config -- -j20 -l20
+[0.013s] Invoked command in '/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config -- -j20 -l20
+[0.016s] Invoking command in '/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config': CMAKE_PREFIX_PATH=/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config
+[0.017s] -- Install configuration: ""
+[0.017s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/ament_index/resource_index/package_run_dependencies/dummyxiaox_moveit_config
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/ament_index/resource_index/parent_prefix_path/dummyxiaox_moveit_config
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/environment/ament_prefix_path.sh
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/environment/ament_prefix_path.dsv
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/environment/path.sh
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/environment/path.dsv
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/local_setup.bash
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/local_setup.sh
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/local_setup.zsh
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/local_setup.dsv
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/package.dsv
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/ament_index/resource_index/packages/dummyxiaox_moveit_config
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/cmake/dummyxiaox_moveit_configConfig.cmake
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/cmake/dummyxiaox_moveit_configConfig-version.cmake
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/package.xml
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/warehouse_db.launch.py
+[0.018s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/demo.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/move_group.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/setup_assistant.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/rsp.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/moveit_rviz.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/spawn_controllers.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/initial_positions.yaml
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/moveit_controllers.yaml
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/ros2_controllers.yaml
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/kinematics.yaml
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/dummy.urdf.xacro
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/moveit.rviz
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/joint_limits.yaml
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/dummy.srdf
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/pilz_cartesian_limits.yaml
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/config/dummy.ros2_control.xacro
+[0.019s] -- Up-to-date: /home/jiehuang/dummyxiao319/ros2/install/dummyxiaox_moveit_config/share/dummyxiaox_moveit_config/.setup_assistant
+[0.020s] Invoked command in '/home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jiehuang/dummyxiao319/ros2/install/dummyxiaox319_description:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/dummyxiao319/ros2/build/dummyxiaox_moveit_config
