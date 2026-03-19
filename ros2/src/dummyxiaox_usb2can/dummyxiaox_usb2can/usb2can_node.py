@@ -13,9 +13,9 @@ import struct
 import json
 import time
 import math
-from dummyx_interface.srv import InitUsb2Can
-from dummyx_interface.srv import WriteUsb2Can
-from dummyx_interface.srv import ReadUsb2Can
+from dummyxiaox_interface.srv import InitUsb2Can
+from dummyxiaox_interface.srv import WriteUsb2Can
+from dummyxiaox_interface.srv import ReadUsb2Can
 from sensor_msgs.msg import JointState
 
 # CtrlStep CAN Command Definitions
