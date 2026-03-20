@@ -3,7 +3,7 @@
 <package format="3">
   <name>dummyxiaox_usb2can</name>
   <version>0.0.0</version>
-  <description>USB2CAN bridge node for CtrlStep motor control via CAN bus</description>
+  <description>USB serial bridge node for CtrlStep motor control via REF Core Board</description>
   <maintainer email="hydrangeahuman@gmail.com">jiehuang</maintainer>
   <license>MIT</license>
 

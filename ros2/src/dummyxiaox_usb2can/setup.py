@@ -19,7 +19,7 @@ setup(
     zip_safe=True,
     maintainer='jiehuang',
     maintainer_email='hydrangeahuman@gmail.com',
-    description='USB2CAN bridge node for CtrlStep motor control via CAN bus',
+    description='USB serial bridge node for CtrlStep motor control via REF Core Board',
     license='MIT',
     extras_require={
         'test': [

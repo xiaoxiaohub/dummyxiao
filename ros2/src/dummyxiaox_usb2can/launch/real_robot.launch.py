@@ -4,21 +4,11 @@
 # Copyright (c) 2025. Muzixiaowen(xin.li at switchpi.com) All rights reserved.
 # For more details, check out in https://gitee.com/switchpi/dummyx2
 
-import json
 from launch import LaunchDescription
 from launch.substitutions import PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from moveit_configs_utils import MoveItConfigsBuilder
-
-MOTOR_CONFIG = json.dumps({
-    "1": {"reduction": 30, "inverse": True},
-    "2": {"reduction": 30, "inverse": False},
-    "3": {"reduction": 30, "inverse": True},
-    "4": {"reduction": 24, "inverse": False},
-    "5": {"reduction": 30, "inverse": True},
-    "6": {"reduction": 50, "inverse": True},
-})
 
 def generate_launch_description():
     moveit_config = (
@@ -91,17 +81,19 @@ def generate_launch_description():
         ],
     )
 
-    # USB2CAN bridge: subscribes to /joint_states and sends CAN commands
-    # to the real CtrlStep motors via USB-CAN adapter (socketcan can0)
+    # USB serial bridge: subscribes to /joint_states and sends ASCII commands
+    # to the REF Core Board via USB CDC serial (/dev/ttyACM0).
+    # The core board handles CAN communication to CtrlStep motors internally.
     usb2can_node = Node(
         package="dummyxiaox_usb2can",
         executable="usb2can_node",
         name="usb2can_node",
         output="screen",
         parameters=[{
-            "interface": "socketcan",
-            "channel": "can0",
-            "motor_config_json": MOTOR_CONFIG,
+            "serial_port": "/dev/ttyACM0",
+            "baudrate": 115200,
+            "speed": 30.0,
+            "command_mode": 2,
         }],
     )
 
